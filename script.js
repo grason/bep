@@ -10,7 +10,7 @@
             action(data);
         });
     },
-        test = true;
+        test = false;
     r.placeModule("placePaintBot", function(loader) {
         var c = loader("canvasse"),
             client = loader("client"),
