@@ -6,7 +6,7 @@
     console.log('Loaded /r/place Cooridination Script');
     $.ajaxSetup({ cache: false });
     var getData = function(action) {
-        $.getJSON('kek.json', function(data) {
+        $.getJSON('https://raw.githubusercontent.com/grason/bep/master/kek.json', function(data) {
             action(data);
         });
     },
